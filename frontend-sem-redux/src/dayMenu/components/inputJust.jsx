@@ -1,11 +1,17 @@
-import React from 'react'
+import React , {Component} from 'react'
 
-export default props => (
+export default class inputJust extends Component{
 
-    <div className="input-group">
-        <input type="text" className="form-control"/>
-        <span className="input-group-btn">
-            <button type="button" className="btn btn-danger">Salvar</button>
-        </span>
-    </div>
-)
+    render() {
+        return (
+            <div className="input-group">
+                <input type="text" className="form-control"/>
+                <span className="input-group-btn">
+                    <button type="submit" className="btn btn-danger">Salvar</button>
+                </span>
+            </div>
+        )
+    }
+
+
+}

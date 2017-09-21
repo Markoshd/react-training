@@ -6,9 +6,10 @@ import TodoForm from './todoForm'
 import TodoList from './todoList'
 import {Button, OverlayTrigger, Popover} from 'react-bootstrap'
 import Dialog from 'react-bootstrap-dialog'
-import DayMenu from '../dayMenu/components/dayMenu'
+import DayMenu from '../dayMenu/contaners/dayMenu'
 
 const URL = 'http://localhost:3003/api/todos'
+
 
 export default class Todo extends Component {
     constructor(props) {
@@ -122,8 +123,6 @@ export default class Todo extends Component {
                 {/*</OverlayTrigger>*/}
 
                 <DayMenu />
-
-
 
                 {/*<OverlayTrigger*/}
                     {/*trigger="click" ref="overlay" rootClose placement="top"*/}

@@ -2,7 +2,10 @@ import ActionTypes from '../constants/actionTypes'
 
 export function optionSelected(state = ActionTypes.RootMenuSelected, action) {
 
-    switch(action) {
+    switch(action.type) {
+
+        case ActionTypes.RootMenuSelected:
+            return ActionTypes.RootMenuSelected;
 
         case ActionTypes.ManualPunchSelected:
             return ActionTypes.ManualPunchSelected;
@@ -13,5 +16,4 @@ export function optionSelected(state = ActionTypes.RootMenuSelected, action) {
         default:
             return state;
     }
-
 }
