@@ -5,15 +5,14 @@ const EMPLOYEE_ID = '2';
 const API = `http://127.0.0.1:8000/api-temp/companies/${COMPANY_ID}/employees/${EMPLOYEE_ID}/punches/manuals`;
 export const FETCH_PUNCH = 'FETCH_PUNCH';
 
-
 export function  punchManual() {
-
 
     const request =   axios.post(API,
         {   'input-type': 1,
-            'justification': this.justification,
+            'justification': "Esqueceu",
             'input-date': "21/09/2017 ",
-            'input-hour': this.input_hour},
+            'input-hour': "20:00"
+        },
             { headers: { 'Content-Type': 'application/json' } })
 
         .catch(function (error) {

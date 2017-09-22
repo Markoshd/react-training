@@ -9,7 +9,6 @@ import InputHora from './inputHora'
 
 class ManualPunchCreate extends Component {
 
-
     constructor(props) {
         super(props);
         this.state = { value: ''};
@@ -23,32 +22,32 @@ class ManualPunchCreate extends Component {
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
+        alert('A name was submitted: ' + this.state.value);
+        this.props.punchManual(this.state.value);
+        this.setState({value: '' })
     }
-
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="form">
                 <div className="form-group">
                     <select name="input_type"  value={this.state.value}  onChange={this.handleChange} className="form-control">
-                        <option value="1" >A1!!</option>
-                        <option value="2" >A2!!</option>
-                        <option value="3" >A3!!</option>
-                        <option value="4" >A4!!</option>
+                        <option value="1" > Entrada </option>
+                        <option value="2" > Saida para almoço </option>
+                        <option value="3" > Retorno do almoço </option>
+                        <option value="4" > Saída </option>
                     </select><br/>
                     <InputHora className="input-group" type="text" value={this.state.test} onChange={this.handleChange}/><br/>
                     <InputJust className="input-group" name="justification" value={this.state.value} onChange={this.handleChange}/><br/>
                 </div>
             </form>
-        );
+        )
     }
 }
 
 function mapDispatchToProps(dispatch) {
     return bindActionCreators({ punchManual }, dispatch);
 }
-
 
 export default connect(null, mapDispatchToProps)(ManualPunchCreate)

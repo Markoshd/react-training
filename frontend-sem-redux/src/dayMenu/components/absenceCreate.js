@@ -31,9 +31,7 @@ export default class AbsenceCreate extends Component {
             <div className="row manual">
 
                 <div className="col-md-12 form-group">
-                    <label>
-                        <input type="checkbox" /> Dia Todo
-                    </label>
+                    <input type="checkbox" /> Dia Todo
                 </div>
                 <div className="col-md-12 form-group">
                     <InputMask className="form-control"  mask="hh:mm" placeholder="Entrada"/><br/>
@@ -52,10 +50,10 @@ export default class AbsenceCreate extends Component {
                     <div className={ hidden }>
                         <div className="col-md-12 form-group">
                             <select className="form-control">
-                                <option>Muito vagabundo</option>
-                                <option>Diarreia</option>
+                                <option>foi ao medico</option>
+                                <option>Dor de Barriga</option>
                                 <option>Atestado falso</option>
-                                <option>Vagabundagem</option>
+                                <option>Greve</option>
                             </select>
                         </div>
                     </div>
