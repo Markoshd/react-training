@@ -2,20 +2,54 @@ import axios from 'axios'
 
 const COMPANY_ID = '2';
 const EMPLOYEE_ID = '2';
-const URL_APPONTEME = `http://127.0.0.1:8000/dashboard/companies/${COMPANY_ID}/employees/${EMPLOYEE_ID}/punch-manual`;
+const API = `http://127.0.0.1:8000/api-temp/companies/${COMPANY_ID}/employees/${EMPLOYEE_ID}/punches/manuals`;
+export const FETCH_PUNCH = 'FETCH_PUNCH';
 
 
-const data = {
-    'employeeId': 2,
-    'company': 2,
-    'from': "{{ from|date('Y-m-d') }}",
-    'to': "{{ to|date('Y-m-d') }}",
-};
+export function  punchManual() {
 
 
-export function  url() {
+    const request =   axios.post(API,
+        {   'input-type': 1,
+            'justification': this.justification,
+            'input-date': "21/09/2017 ",
+            'input-hour': this.input_hour},
+            { headers: { 'Content-Type': 'application/json' } })
 
-    const request = axios.post(URL_APPONTEME, { data })
+        .catch(function (error) {
+            if (error.response) {
+                // console.log(error.response.data);
+                console.log(error.response.status);
+                console.log(error.response.statusText);
+            }
+        });
 
-    return url;
+    return {
+        type: FETCH_PUNCH,
+        payload: request
+    };
 }
+
+// export function  nonattendance() {
+//
+//
+//     const request =   axios.post(API,
+//         {   'input-': 2,
+//             'justification': "MEDICO",
+//             'input-date': "20/09/2017 ",
+//             'input-hour': "10:00"},
+//         { headers: { 'Content-Type': 'application/json' } })
+//
+//         .catch(function (error) {
+//             if (error.response) {
+//                 // console.log(error.response.data);
+//                 console.log(error.response.status);
+//                 console.log(error.response.statusText);
+//             }
+//         });
+//
+//     return {
+//         type: FETCH_NONATTENDANCE,
+//         payload: request
+//     };
+// }

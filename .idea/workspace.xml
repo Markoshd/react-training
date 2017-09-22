@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172440e0-67a1-476a-9f82-558f041e40d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/react-training.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenu.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/dayMenu.jsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/package-lock.json" afterPath="$PROJECT_DIR$/frontend-sem-redux/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/package.json" afterPath="$PROJECT_DIR$/frontend-sem-redux/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/absenceCreate.js" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/absenceCreate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/.gitignore" afterPath="$PROJECT_DIR$/frontend-sem-redux/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputHora.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputHora.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenuPopover.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenuPopover.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/optionSelect.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/optionSelect.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/reducers/optionSelected.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/reducers/optionSelected.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/index.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx" afterPath="$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +33,8 @@
       <file leaf-file-name="todoList.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todoList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -51,41 +42,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dayMenu.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenu.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manualPunchCreate.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manualPunchCreate.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="37" column="74" lean-forward="false" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+            <state relative-caret-position="233">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -93,42 +74,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="optionSelect.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/optionSelect.jsx">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/template/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="61" column="73" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inputJust.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-              <folding>
-                <marker date="1506012564000" expanded="true" signature="164:405" ph="..." />
-                <marker date="1506012564000" expanded="true" signature="277:386" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chooseWhatToCreateInDay.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/chooseWhatToCreateInDay.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="546">
+              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>justification</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,9 +107,11 @@
         <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenu.jsx" />
         <option value="$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx" />
         <option value="$PROJECT_DIR$/frontend-sem-redux/src/index.jsx" />
-        <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx" />
         <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx" />
+        <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputHora.jsx" />
         <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx" />
+        <option value="$PROJECT_DIR$/frontend-sem-redux/src/template/custom.css" />
+        <option value="$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx" />
         <option value="$PROJECT_DIR$/frontend-sem-redux/.gitignore" />
       </list>
     </option>
@@ -321,30 +284,6 @@
               <item name="react-training" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend-sem-redux" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dayMenu" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="constants" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="react-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-training" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend-sem-redux" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dayMenu" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="contaners" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="react-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-training" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend-sem-redux" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dayMenu" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="reducers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="react-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-training" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend-sem-redux" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -400,18 +339,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505483873822</updated>
-      <workItem from="1505483874984" duration="33317000" />
+      <workItem from="1505483874984" duration="51900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33331000" />
+    <option name="totallyTimeSpent" value="51914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -471,14 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/template/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/constants/actionTypes.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -534,7 +465,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="35" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,24 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todoForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -591,27 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todoList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding>
-            <marker date="1506012564000" expanded="true" signature="164:405" ph="..." />
-            <marker date="1506012564000" expanded="true" signature="277:386" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/reducers/optionSelected.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -620,13 +512,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todoForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputJust.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1506116173000" expanded="true" signature="117:358" ph="..." />
+            <marker date="1506116173000" expanded="true" signature="242:343" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/inputHora.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/optionSelect.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="61" column="73" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="73" />
+        <state relative-caret-position="414">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="49" column="68" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/template/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -640,37 +605,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/actions/index.jsx">
+    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/todo/todoList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/contaners/dayMenu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend-sem-redux/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-sem-redux/src/dayMenu/components/manualPunchCreate.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="37" column="74" lean-forward="false" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
